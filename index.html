@@ -1,0 +1,62 @@
+<!--POPUP-->
+<body>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Poppins:700" rel="stylesheet">
+<div id="cookie-popup">
+  
+  <p>This website is currently under development and might have some bugs. Please feel free to report bugs :)</p>
+  <script> function Welcome() {
+       window.open("dist/index.html");
+   }
+   </script>
+  <button onclick="Welcome()">ACCEPT & PROCEED</button>
+</div>
+
+
+<style>
+  body {
+  background-color: #232323;
+}
+
+#cookie-popup {
+  position:center;
+  align-items: center;
+  height: 275px;
+  width: 430px;
+  margin-left: 480px;
+
+  margin-top: 170px;
+  padding: 70px 70px;
+  box-sizing: border-box;
+  background-color: #131313;
+  color: #eee;
+ 
+}
+
+#cookie-popup p:nth-child(2) {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+#cookie-popup button {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #E8A35D;
+  background-color: #000;
+  border: 4px solid #E8A35D;
+}
+
+footer {
+    color: white;
+  
+}
+  </style>
+
+  <script>$("#cookie-popup button").click(function() {
+    $("#cookie-popup").fadeOut();
+  });</script>
+  </body>
